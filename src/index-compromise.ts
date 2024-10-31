@@ -1,7 +1,4 @@
-
-import { parseText } from './helpers/npl';
-
-
+import { parseText } from './helpers/nlp-compromise';
 import { searchPhotos } from './services/arc/photo-api';
 
 const formatPhoto = (p: any) => {
